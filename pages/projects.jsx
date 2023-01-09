@@ -27,7 +27,7 @@ export async function getServerSideProps (context) {
      const result = await res.data.items;
     return {
       props: {
-        data: result
+        data: result || null
       }, 
     }
   }
