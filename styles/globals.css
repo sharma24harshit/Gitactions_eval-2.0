@@ -1,0 +1,43 @@
+.main_box{
+display: flex;
+background-color: rgb(189, 175, 175);
+margin: auto;
+padding: 10px;
+}
+.grid_container{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+width:65%;
+margin: auto;
+gap:20px;
+}
+.grid_box{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 10px ;
+    background-color:white;
+    border-radius: 15px;
+}
+.left_container{
+    width:30%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr); 
+    gap:50px;
+    padding: 50px 15px;
+    background-color: rgb(72, 87, 87);
+    border-radius: 15px;
+}
+.left_container>div{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 0px;
+    background-color: white;
+    border-radius: 25px;
+}
+.exp{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 0px;
+    background-color: white;
+    border-radius: 25px;
+}
